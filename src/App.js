@@ -155,8 +155,14 @@ function App() {
 		setPlayerResult("tie");
 		setPlayerScore(0);
 		setComputerChoice("");
+		setComputerChoice("");
 		setComputerResult("tie");
 		setComputerScore(0);
+    setGameHistory([
+      {winner:"tie",
+    playerChoice,
+  computerChoice }
+    ]);
 		streak = 0;
 	};
 
